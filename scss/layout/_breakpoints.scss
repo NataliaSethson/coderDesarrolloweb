@@ -1,0 +1,48 @@
+nav{
+    grid-area: nav;
+   
+}
+
+main{
+    grid-area: main;
+   
+}
+
+
+footer{
+    grid-area: footer;
+    
+}
+     .gridRegistros{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+        margin: 0;
+}
+
+@media (max-widht:768px) {
+    .gridRegistros{
+       grid-template-areas: 
+       "header"
+       "nav"
+       "main"
+       "footer";
+    }
+
+   }
+
+   @media (max-widht:500px) {
+       .gridRegistros{
+           grid-template-areas:
+           "header"
+           "nav"
+           "main"
+           "footer";
+        }
+        .imagenReg{
+            margin: 20px 30px 100px 319px;
+        }
+}

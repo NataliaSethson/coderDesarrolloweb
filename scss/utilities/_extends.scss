@@ -1,0 +1,9 @@
+.cartaNatal a:hover {
+    color: rgb(241, 229, 229);
+  }
+
+  .barraNav a:hover{
+    @extend .cartaNatal;
+  }
+
+

@@ -136,7 +136,7 @@ footer{
 
 
  .signosZodiacales{
-    font-size: 60%;
+    font-size: 70%;
     border: solid 5px black;
     margin: 3px 5px 5px 3px;
     align-items: row;
@@ -147,9 +147,11 @@ footer{
  }
 
 .imgFlex{
-    width: 30%;
-    height: 30%;
-    margin: 3px 5px 3px 200px;
+    width: 20%;
+    height: 20%;
+    margin: 2px 4px 2px 90px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -159,14 +161,8 @@ align-items: center;
 padding: 3px;
 flex-wrap: nowrap;
 align-content: center;
+text-align: center;
 }
-
- .cool{
-    padding: 2px;
-    margin: 1px;
-    align-items: center;
-    justify-content: center;
- }
 
  nav{
     grid-area: nav;

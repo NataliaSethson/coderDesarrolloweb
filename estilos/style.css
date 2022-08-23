@@ -106,9 +106,6 @@ footer {
   .gridRegistros {
     grid-template-areas: "header" "nav" "main" "footer";
   }
-  .imagenReg {
-    margin: 20px 30px 100px 319px;
-  }
 }
 footer {
   color: black;
@@ -257,7 +254,7 @@ footer {
 }
 /**signos.html**/
 .signosZodiacales {
-  font-size: 60%;
+  font-size: 70%;
   border: solid 5px black;
   margin: 3px 5px 5px 3px;
   align-items: row;
@@ -268,9 +265,11 @@ footer {
 }
 
 .imgFlex {
-  width: 30%;
-  height: 30%;
-  margin: 3px 5px 3px 200px;
+  width: 20%;
+  height: 20%;
+  margin: 2px 4px 2px 90px;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex {
@@ -279,13 +278,7 @@ footer {
   padding: 3px;
   flex-wrap: nowrap;
   align-content: center;
-}
-
-.cool {
-  padding: 2px;
-  margin: 1px;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 nav {
